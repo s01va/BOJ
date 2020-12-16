@@ -1,7 +1,11 @@
 import sys
 
 while(True):
-	A, B = sys.stdin.readline().rstrip().split()
-	if (int(A) <= 0) or (int(B) >= 10):
+	try:
+		A, B = sys.stdin.readline().rstrip().split()
+		if (int(A) > 0) or (int(B) < 10):
+			sys.stdout.write(str(int(A) + int(B)) + "\n")
+		else:
+			break
+	except:
 		break
-	sys.stdout.write(str(int(A) + int(B)) + "\n")
