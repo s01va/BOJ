@@ -10,5 +10,5 @@ for i in range(C):
 	overavg = 0
 	for score in scores:
 		if score > avg:
-			overavg = overavg + 1
+			overavg += 1
 	print("%0.3f%%" % (overavg / stdnum * 100))

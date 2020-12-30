@@ -7,7 +7,7 @@ for i in range(N):
 	o = 0
 	for ox in testcase:
 		if ox == 'O':
-			o = o + 1
+			o += 1
 		elif ox == 'X':
 			o = 0
 		score = score + o
