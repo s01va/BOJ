@@ -1,3 +1,6 @@
-N = int(input())
+import math
 
-print((N - 1 // 6) + 1)
+N = int(input())
+tmp = ((N - 1 // 6) + 1) * 2
+
+print()
