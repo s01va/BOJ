@@ -1,8 +1,8 @@
 N = int(input())
-X = 1
+n = 1
 while(True):
-	if (3 * X * (X - 1) + 1) >= N:
+	if (3*n*(n-1) + 1) >= N:
 		break
 	else:
-		X += 1
-print(X)
+		n+=1
+print(n)
