@@ -10,7 +10,7 @@
 - [x] 6단계: ![함수](https://www.acmicpc.net/step/6)
 - [x] 7단계: ![문자열](https://www.acmicpc.net/step/7)
 - [ ] 8단계: ![기본 수학 1](https://www.acmicpc.net/step/8)
-- [ ] 9단계: ![기본 수학 2](https://www.acmicpc.net/step/9)
+- [x] 9단계: ![기본 수학 2](https://www.acmicpc.net/step/9)
 - [ ] 10단계: ![재귀](https://www.acmicpc.net/step/10)
 - [ ] 11단계: ![브루트 포스](https://www.acmicpc.net/step/11)
 
